@@ -21,7 +21,7 @@ INSTITUTION_ADDR = "FARMAGUDI – 403 401, GOA"
 EXPERIMENTS = [
     {
         "id": "experiment1",
-        "title": "Experiment 1: Basic Graphs",
+        "title": "Experiment 1: Standard Graph Models",
         "subject": "Graph Theory",
         "aim": (
             "To implement basic graphs such as complete graph, cycle graph, "
@@ -54,7 +54,7 @@ EXPERIMENTS = [
     },
     {
         "id": "experiment2",
-        "title": "Experiment 2: Graph Isomorphism",
+        "title": "Experiment 2: Graph Invariants and Isomorphism",
         "subject": "Graph Theory",
         "aim": (
             "To implement graph isomorphism verification in order to compare "
@@ -196,16 +196,16 @@ EXPERIMENTS = [
         "variants": [
             {
                 "label": "Using NetworkX",
-                "file_name": "5a.py",
-                "source_path": "5a.py",
-                "output_images": ["_cached_5a_fig_0.png"],
+                "file_name": "Line Graph With Networkx",
+                "source_path": "5With_Networkx.py",
+                "output_images": ["image.png"],
                 "output_text_path": "assets/outputs/experiment5-networkx.txt",
             },
             {
                 "label": "Without NetworkX",
-                "file_name": "5b.py",
-                "source_path": "5b.py",
-                "output_images": ["assets/outputs/experiment5-without-networkx.png"],
+                "file_name": "Line Graph Without Networkx",
+                "source_path": "5Without_Networkx.py",
+                "output_images": ["image copy.png"],
                 "output_text_path": "assets/outputs/experiment5-without-networkx.txt",
             },
         ],
@@ -450,20 +450,20 @@ EXPERIMENTS = [
                 "label": "Graph Coloring — Without NetworkX",
                 "file_name": "11withoutNetworkx.py",
                 "source_path": "11withoutNetworkx.py",
-                "output_images": ["_cached_11withoutNetworkx_fig_0.png"],
+                "output_images": ["image copy 3.png"],
                 "output_text_path": "assets/outputs/experiment11-colouring-without-networkx.txt",
             },
             {
                 "label": "Sudoku — Using NetworkX",
-                "file_name": "sudoko.py",
-                "source_path": "sudoko.py",
-                "output_images": ["assets/outputs/experiment11-sudoku-networkx.png"],
+                "file_name": "11sudokoWithNetworkx.py",
+                "source_path": "11sudokoWithNetworkx.py",
+                "output_images": ["image copy 2.png"],
                 "output_text_path": "assets/outputs/experiment11-sudoku-networkx.txt",
             },
             {
                 "label": "Sudoku — Without NetworkX",
-                "file_name": "suduko2.py",
-                "source_path": "suduko2.py",
+                "file_name": "11sudokoWithoutNetworkx.py",
+                "source_path": "11sudokoWithoutNetworkx.py",
                 "output_images": ["assets/outputs/experiment11-sudoku-without-networkx.png"],
                 "output_text_path": "assets/outputs/experiment11-sudoku-without-networkx.txt",
             },
